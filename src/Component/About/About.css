@@ -172,7 +172,7 @@
     justify-content: center;
     transform:scale(1.2);
     margin-right:30px;
-    margin-bottom:2.5rem;
+    margin-bottom:2rem;
 }
 .about_right{
     display:flex;
@@ -185,9 +185,9 @@
     padding:0rem 0rem;
 }
 .about_right h2{
-    font-size:2rem;
+    font-size:1.8rem;
     font-weight: 600;
-    margin-bottom:.5rem;
+    margin-bottom:.3rem;
 }
 .about_right p{
     color:#748182;  
@@ -195,7 +195,7 @@
     font-family:Arial, Helvetica, sans-serif;
     line-height: 1.5;
     letter-spacing:1.5;
-    margin-bottom:.8rem;
+    margin-bottom:.5rem;
 }
 /* .about_right span{
     font-weight:bold;
@@ -215,14 +215,14 @@
     box-shadow: 1px 1px -5px black;
     background-color: #e6e8e9;
     border-radius:5px;
-    margin:.7rem 0rem;
+    margin:.4rem 0rem;
     position: relative;
     font-weight: 100;
     font-size:14.5px;
 }
 .skill_progress span{
     position:absolute;
-    padding:4px 10px;
+    padding:4px10px;
     /* background-color:green; */
     color:white;
     z-index:999;
