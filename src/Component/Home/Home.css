@@ -1,0 +1,232 @@
+.home_container{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    width:100vw;
+    background-image:url(../../Assets/Images/bg.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    /* background-color:green; */
+}
+.home_display{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(0,0,0,0.65);
+}
+::-webkit-scrollbar{
+    display:none;
+}
+.nav_container{
+    top:0px;
+    width:100%;
+    position:fixed;
+    /* background-color:red; */
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    color:white;
+    padding:20px 0px 0px ;
+    z-index: 99999;
+}
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    position: relative;
+    transition: top 0.3s;
+}
+
+.sticky {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 1000;
+    background-color: red;
+    color: black;
+}
+
+.nav_logo{
+    padding:0px 30px;
+    font-size:22px;
+}
+.nav_list{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;  
+  
+
+}
+.nav_options{
+    /* text-decoration:none; */
+    display:flex;
+    list-style-type: none;
+    padding :20px;
+    font-size:13px;
+    font-family:'Poppins', sans-serif; 
+    cursor: pointer;
+}
+.home_content{
+    display: flex;
+    flex-direction:column;
+    height:100%;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+    color:whitesmoke;
+    font-size:60px;
+}
+.home_content h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom:20px;
+}
+.home_content h1{
+    font-size:44px;
+    font-weight: 100;
+}
+.home_logo {
+    color:white;
+    display:flex;
+    padding-top:20px;
+}
+.home_logo li{
+
+    background-color:black;
+    height:30px;
+    width:30px;
+    display:flex;
+    margin:5px;
+    border-radius:20px;
+    align-items:center;
+    justify-content:center; 
+    /* padding:5px;    */
+}
+.home_logoSize{
+    height:15px;
+    width:15px;
+}
+
+@media screen and (max-width:480px){
+.home_container{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    width:100vw;
+    background-image:url(../../Assets/Images/bg.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    /* background-color:green; */
+}
+.home_display{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(0,0,0,0.65);
+}
+::-webkit-scrollbar{
+    display:none;
+}
+.nav_container{
+    top:0px;
+    width:100%;
+    position:fixed;
+    /* background-color:red; */
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    color:white;
+    padding:20px 0px 0px ;
+    z-index: 99999;
+}
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    position: relative;
+    transition: top 0.3s;
+}
+
+.sticky {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 1000;
+    background-color: red;
+    color: black;
+}
+
+.nav_logo{
+    padding:0px 30px;
+    font-size:22px;
+}
+.nav_list{
+    height:100vh;
+    width:50%;
+    display:flex;
+    align-items:flex-start;
+    padding-left:1rem;
+    flex-direction:column;
+    justify-content:flex-start;
+    position:absolute;
+    right:0rem;
+    top:0rem;
+    padding-top:5rem;
+    background-color: rgb(66, 68, 68);
+    
+}
+.nav_options{
+    /* text-decoration:none; */
+    display:flex;
+    list-style-type: none;
+    padding :20px;
+    padding-bottom:2rem;  
+    font-size:13px;
+    font-family:'Poppins', sans-serif; 
+    cursor: pointer;
+}
+.home_content{
+    display: flex;
+    flex-direction:column;
+    height:100%;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+    color:whitesmoke;
+    font-size:60px;
+}
+.home_content h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom:20px;
+}
+.home_content h1{
+    font-size:44px;
+    font-weight: 100;
+}
+.home_logo {
+    color:white;
+    display:flex;
+    padding-top:20px;
+}
+.home_logo li{
+
+    background-color:black;
+    height:30px;
+    width:30px;
+    display:flex;
+    margin:5px;
+    border-radius:20px;
+    align-items:center;
+    justify-content:center; 
+    /* padding:5px;    */
+}
+.home_logoSize{
+    height:15px;
+    width:15px;
+}
+}

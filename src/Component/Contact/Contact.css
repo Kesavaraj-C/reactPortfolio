@@ -1,0 +1,230 @@
+.contact_container{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    padding:100px 0px;   
+}
+.contact_hw{
+    height:100%;
+    width:60%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.contact_heading{
+    font-size:36px;
+    font-weight:800;
+    margin-bottom:80px;
+}
+.contact_box{
+    height:200px;
+    width:100%;
+    display:flex;
+    /* background-color:yellow; */
+    align-items:center;
+    justify-content:center;
+}
+.contact_options{
+    height:200px;
+    width:300px;
+    padding:20px;
+    display:flex;
+    flex-directioN:column;
+    align-items:center;
+    /* background-color:blue; */
+    margin:5px;
+}
+.contact_Options span{
+   height:50px;
+   width:50px;
+   /* background-color:black; */
+}
+.contact_icons{
+    height:50px;
+    width:50px;
+    background-color:#dcd9d9;
+    padding:13px;
+    border-radius:50%;
+    margin-bottom: 10px;
+}
+.contact_options h3{
+    font-size:18px;
+    margin-bottom:10px;
+}
+.contact_options p{
+    font-size:17px;
+}
+.contact_user{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    /* justify-content: center; */
+    /* background-color:aqua; */
+}
+.contact_userinfo{
+    height:50px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    /* background-color:maroon; */
+}
+.contact_userinfo input{
+    height:38px;
+    width: 48.5%;
+    padding:10px;
+    border-radius:5px;
+    font-size:15px;
+    border: 0px;
+    background-color: #f6f3f3;
+    box-shadow: 0px 0px 5px grey;
+}
+.contact_usermsg{
+    height:100%;
+    width:100%;
+}
+.contact_userMessage{
+    height:200px;
+    width:100%;
+    /* background-color: red; */
+    background-color: #f6f3f3;
+    border:0px;
+    border-radius:5px;
+    box-shadow: 0px 0px 5px grey;
+    display:flex;
+    font-family: 'Times New Roman', Times, serif;
+    padding:10px;
+    font-size:18px;
+    font-weight: 300;
+}
+.contact_usermsg button{
+    height:40px;
+    width:110px;
+    background-color:black;
+    color:white;
+    margin-top:10px;
+    border-radius:5px;
+}
+
+@media screen and (max-width:480px){
+    .contact_container{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    padding:60px 0px;   
+}
+.contact_hw{
+    height:100%;
+    width:70%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.contact_heading{
+    font-size:2rem;
+    font-weight:800;
+    margin-bottom:40px;
+}
+.contact_box{
+    height:100%;
+    width:100%;
+    display:flex;
+    /* background-color:yellow; */
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+}
+.contact_options{
+    height:90px;
+    width:300px;
+    padding:0px;
+    display:flex;
+    flex-directioN:column;
+    align-items:center;
+    /* background-color:blue; */
+    margin:5px;
+}
+.contact_Options span{
+   height:50px;
+   width:50px;
+   /* background-color:black; */
+}
+.contact_icons{
+    height:40px;
+    width:40px;
+    background-color:#dcd9d9;
+    padding:8px;
+    border-radius:50%;
+    margin-bottom: 0px;
+}
+.contact_options h3{
+    font-size:1rem;
+    margin-bottom:4px;
+}
+.contact_options p{
+    font-size:.8rem;
+}
+.contact_user{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    /* justify-content: center; */
+    /* background-color:aqua; */
+}
+.contact_userinfo{
+    height:50px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    /* background-color:maroon; */
+}
+.contact_userinfo input{
+    height:38px;
+    width: 48.5%;
+    padding:10px;
+    border-radius:5px;
+    font-size:15px;
+    border: 0px;
+    background-color: #f6f3f3;
+    box-shadow: 0px 0px 5px grey;
+}
+.contact_usermsg{
+    height:100%;
+    width:100%;
+}
+.contact_userMessage{
+    height:200px;
+    width:100%;
+    /* background-color: red; */
+    background-color: #f6f3f3;
+    border:0px;
+    border-radius:5px;
+    box-shadow: 0px 0px 5px grey;
+    display:flex;
+    font-family: 'Times New Roman', Times, serif;
+    padding:10px;
+    font-size:18px;
+    font-weight: 300;
+}
+.contact_usermsg button{
+    height:40px;
+    width:110px;
+    background-color:black;
+    color:white;
+    margin-top:10px;
+    border-radius:5px;
+}
+}

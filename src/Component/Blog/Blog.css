@@ -1,0 +1,234 @@
+.Blog_container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    background-color:#f7f7f7;
+    align-items:center;
+    justify-content:center;
+    padding:60px 20px 80px;
+}
+.Blog_heading{
+    padding:10px;
+    font-size:38px;
+    font-weight:800;
+    margin-top:10px;
+}
+.Blog_element_box{
+    height:100%;    
+    width:80%;
+    display:grid;
+    /* background-color:blue; */
+    overflow-x:scroll;
+    margin-top: 40px;
+
+}
+.Blog_contentBox{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    /* background-color:yellow; */
+    margin:10px;
+    box-shadow:0px 0px 10px 0px lightslategrey;
+}
+.Blog_image{
+    height:300px;
+    width:100%;
+    overflow:hidden;
+    background-color:black;
+    /* object-fit: cover;   */
+}
+.Blog_image:hover img{
+    transform: scale(1.2 );
+    
+}
+.Blog_image img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    transition: 0.5s all ease-in-out;
+}
+.Blog_contentDetails{
+    height:50%;
+    width:100%;
+    padding:10px 15px;  
+}
+.Blog_contentDetails h5{
+    padding:10px 0px;
+    font-size: 14px;
+    padding-bottom:15px; 
+}
+.Blog_contentDetails p{
+    font-weight:bold;
+    font-size:20px;
+    line-height:1.5;
+    margin-bottom: 10px;;
+}
+.Blog_contentDetails span{
+    text-decoration: underline;
+    line-height: 1.5;
+}
+.BlogScroll{
+    display:flex;
+
+}
+.BlogScroll input{
+    display:none;
+}
+.BlogScroll label{
+    height:10px;
+    width:10px;
+    display:flex;
+    margin:12px;
+    background-color:rgb(193, 191, 191);
+    border-radius:50%;
+}
+.BlogScroll input:checked +label{
+    background-color:green; 
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    display:flex;
+
+  }
+  .swiper-slide-active{
+    width:100%;
+  }
+  .swipers-slide1{
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+  @media screen and (max-width:480px){
+    .Blog_container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    background-color:#f7f7f7;
+    align-items:center;
+    justify-content:center;
+    padding:10px 20px 80px;
+}
+.Blog_heading{
+    padding:10px;
+    font-size:2.8rem;
+    font-weight:800;
+    margin-top:0px;
+}
+.Blog_element_box{
+    height:60%;    
+    width:100%;
+    display:grid;
+    /* background-color:blue; */
+    overflow-x:scroll;
+    margin-top: 40px;
+
+}
+.Blog_contentBox{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    /* background-color:yellow; */
+    margin:10px;
+    box-shadow:0px 0px 10px 0px lightslategrey;
+}
+.Blog_image{
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    
+    background-color:black;
+    /* object-fit: cover;   */
+}
+.Blog_image:hover img{
+    transform: scale(1.2 );
+    
+}
+.Blog_image img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    transition: 0.5s all ease-in-out;
+}
+.Blog_contentDetails{
+    height:50%;
+    width:100%;
+    padding:5px 15px;  
+}
+.Blog_contentDetails h5{
+    padding:5px 0px;
+    font-size:.9rem;
+    padding-bottom:15px; 
+}
+.Blog_contentDetails p{
+    font-weight:bold;
+    font-size:.6rem;
+    line-height:1.5;
+    margin-bottom: 10px;;
+}
+.Blog_contentDetails span{
+    text-decoration: underline;
+    line-height: 1.5;
+}
+.BlogScroll{
+    display:flex;
+
+}
+.BlogScroll input{
+    display:none;
+}
+.BlogScroll label{
+    height:10px;
+    width:10px;
+    display:flex;
+    margin:12px;
+    background-color:rgb(193, 191, 191);
+    border-radius:50%;
+}
+.BlogScroll input:checked +label{
+    background-color:green; 
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    display:flex;
+
+  }
+  .swiper-slide-active{
+    width:100%;
+  }
+  .swipers-slide1{
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  
+  }
